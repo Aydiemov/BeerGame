@@ -17,7 +17,7 @@ int main()
 	wcout << L"Сколько пива я сегодня выпил?" << endl;
 
 	
-	while (guessCount > 0 && !cin.fail())
+	while (guessCount > 0)
 	{
 		wcout << L"На размышление дается " << guessCount << " " << MinuteCasing(guessCount) << ": ";
 		cin >> guess;
